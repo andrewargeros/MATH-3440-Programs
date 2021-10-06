@@ -1,3 +1,10 @@
+'''Simulate Random Draws of p,q from [1,10000] and check if p/q is in lowest terms 
+   using checks for coprimality via greatest common denominator. To use, enter the 
+   number of simulations at run time. Written as program for Discrete Math 3440 at
+   Hamline University, Fall 2021.'''
+
+__author__ =  'Andrew Argeros'
+
 from random import randint # This is a standard module... I don't feel like reinventing the wheel
 
 def gcd(p,q):
