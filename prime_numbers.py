@@ -8,4 +8,4 @@ def check_prime(num):
             return False
     return True
 
-print(check_prime(7919))
+print(check_prime(int(input("Input a Number"))))
